@@ -1,0 +1,406 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+    
+    
+    }
+    
+    
+    .header{
+    
+    
+        background-color: #ff0000;
+        height: 80px;
+        /* background-image: url(Blood-by-Litres.webp); */
+        
+        /* position: fixed; */
+        width: 100%;
+        text-align: center;
+        /* box-shadow: "0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5)" */
+    
+    
+    
+    
+    }
+    
+    
+    .logobox{
+    
+        height: 80px;
+        width: 150px;
+        background-image: url(Assests/Screenshot\ 2024-04-13\ 134207.png);
+        background-size: cover;
+        margin-left: 20px;
+    
+    }
+    
+    
+    li {
+    
+        list-style: none;
+        
+        }
+        
+        a{
+        
+        text-decoration: none;
+        padding-left: 20px;
+        color: white;
+        
+        
+         }
+        
+        
+    .navbar{
+    
+    
+        display: flex;
+       
+        position: relative;
+        font-family:Arial, Helvetica, sans-serif;
+        top: -45px;
+        justify-content: center;
+        padding-left: 700px;
+        
+        
+        
+    
+    
+    }
+    
+    .navbar a:hover {
+        text-decoration:underline;
+        color: #00d4ff;
+    
+    
+    
+      }
+    
+      
+    
+    
+    .button55{
+    
+        position: relative;
+        
+        left: 700px;
+        width: 80px;
+        top: -75px;
+        height: 35px;
+        font-size: 15px;
+        color: #070ff7;
+        border-radius: 10px;
+        background-color: white;
+        
+        
+        border-color:#070ff7 ;
+        }
+        
+        
+        
+    
+    
+    
+        .button1:hover{
+            background-color: yellow;
+            color:black;
+            
+            }
+            
+            
+    .maincontent{
+        margin: 4px 0px 0px 0px ;
+        background-color: #070ff7;
+        height: 400px;
+        position: relative;
+        top: 2px;
+        background-image: url(Assests/Web-Banner-1200x400-01.jpg);
+        background-size:cover;
+    padding-left: 980px;
+    padding-top: 300px;
+    color: #02e2f2;
+    
+        }
+    
+        .btext{
+    padding-left: 120px;
+    padding-top: 20px;
+    color:crimson;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* animation: alternate-reverse; */
+        }
+    
+        .button2{
+    width: 160px;
+    height: 45px;
+    background-color: #ff0000;
+    color: white;
+    margin-top: 20px;
+    margin-left: 140px;
+    border: none;
+    border-radius: 5px;
+        }
+    
+     
+    .impofblood{
+    height: 400px;
+    background-color: #d9ac43;
+    margin-top: 10px;
+    
+     background-image: url(Assests/Blood-by-Litres.webp);
+     padding-left: 100px;
+     
+    
+    
+    
+    }
+    
+    .whyblood{
+     height: 50px;
+     background-color: #ff0000;
+     width:800px ;
+     text-align: center;
+     position: relative;
+     top: 20px;
+     padding-left: 30px;
+     padding-top: 20px;
+     color: white;
+    border-radius: 20px;
+    background-image: url(Assests/Blood-by-Litres.webp);
+    background-size: cover;
+    }
+    
+    .sctn2{
+    padding-top: 30px;
+    position: relative;
+    top: 35px;
+    background-color: #ff00007a;
+    width: 813px;
+    color: white;
+    padding-left: 20px;
+    border-radius: 15px;
+    /* background-image: url(hhd.jpg); */
+    background-size: cover;
+    }
+    
+    .peoplewhodonate{
+    
+    background-color: #02e2f2;
+    width: 100%;
+    height: 1050px;
+    margin-top: 10px;
+    
+    
+    }
+    .frmsahara{
+     text-align: center;
+    background-color: #ff0000c4;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    color: aliceblue;
+    height: 50px;
+    padding-top: 20px;
+    
+    
+    
+    }
+    
+    .listofhero{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #ff99cc;
+    
+        /* font-size: 72px; */
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+      
+    }
+    
+    
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        display: inline-block;
+        /* flex-wrap: wrap; */
+        gap: 20px;
+        position: relative;
+        left: 50px;
+        margin-left: 40px;
+    
+    }
+    
+    
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        max-width: 200px;
+        position: relative;
+    }
+    
+    
+    .photo1 {
+        max-width: 100%;
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        transition: transform 0.3s ease;
+    
+       
+    }
+    
+    .details {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        color: cadetblue;
+        
+    }
+    
+    .card:hover .details {
+        opacity: 1;
+    }
+    
+    .button2:hover{
+        background-color: yellow;
+        color:black;
+        
+        }
+    
+    
+        .binfo{
+    
+        background-image: url(Assests/blood.jpg);
+        background-size: cover;
+        height: 600px;
+    margin-top: 20px;
+    
+        }
+    
+    
+        .donation-form-container {
+            max-width: 400px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+          }
+          .donation-form-container h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+          }
+          .donation-form-container form {
+            display: flex;
+            flex-direction: column;
+          }
+          .donation-form-container label {
+            font-weight: bold;
+            margin-top: 1rem;
+          }
+          .donation-form-container input,
+          .donation-form-container select {
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+          .submit11 {
+            background-color: #e74c3c;
+            color: white;
+            padding: 1rem;
+            border: none;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+          }
+          .submit11:hover {
+            background-color: #c0392b;
+          }
+    
+    
+          .footer {
+            background-color: #a30f22; 
+            color: #ffffff;
+            padding: 30px 0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+          }
+          .footercontainer {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+          }
+          .footersection {
+            margin: 10px;
+            flex-basis: 20%;
+            min-width: 150px;
+          }
+          .footersection h3 {
+            color: #ffd700; 
+          }
+          .footersection p, .footersection a {
+            color: #ffffff;
+            line-height: 1.5;
+            text-decoration: none;
+          }
+          .footersection a:hover {
+            text-decoration: underline;
+            padding-left: 3px;
+            
+          }
+          .socialicons {
+            list-style: none;
+            padding: 0;
+          }
+          .socialicons li {
+            display: inline;
+            margin: 0 10px;
+          }
+          .socialicons a {
+            color: #ffffff;
+            font-size: 24px;
+            transition: color 0.3s;
+          }
+          .socialicons a:hover {
+            color: #ffd700;
+          }
+          .footersectionsignup{
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+          }
+          .subbutton {
+            padding: 10px 20px;
+            background-color: #ffd700; 
+            color: #a30f22; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+          }
+          .subbutton:hover {
+            background-color: #ffffff;
+            color: #a30f22;
+            padding-left: 3px;
+          }
+      
+          
